@@ -9,12 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49ad4285a75ce1d4c95ba2ec848187f4, type: 3}
-  m_Name: FMODStudioCache
+  m_Script: {fileID: 1137305049, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: InspectorConfig
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
-  MasterBanks: []
-  StringsBanks: []
-  stringsBankWriteTime: 0
-  cacheVersion: 3
+  enableOdinInInspector: 1
+  defaultEditorBehaviour: 11
+  processMouseMoveInInspector: 1
+  drawingConfig:
+    configs: []
