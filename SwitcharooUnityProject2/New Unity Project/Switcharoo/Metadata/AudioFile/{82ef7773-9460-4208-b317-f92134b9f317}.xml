@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{82ef7773-9460-4208-b317-f92134b9f317}">
+        <property name="assetPath">
+            <value>70093__timbre__dramatic-metal-clang-1-reverb10sec.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>10.0591875</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{826be8eb-1051-4e2f-aa72-77e760d30aea}</destination>
+        </relationship>
+    </object>
+</objects>
