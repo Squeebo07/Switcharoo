@@ -44,8 +44,13 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+#ignore Odin folder
+RootGame/Sirenix/Assemblies/AOT
+
 # Crashlytics generated file
 Assets/StreamingAssets/crashlytics-build.properties
+
+
 
 
 # End of https://www.gitignore.io/api/unity
