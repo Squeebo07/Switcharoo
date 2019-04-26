@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3080538980510837806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\wulus\Desktop\CarstenSwitcharoo\SwitcharooUnityProject2\New Unity
+    Project\Switcharoo\Build\Desktop\Master Bank.bank
+  lastModified: 636918165219745271
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 94720
+  Exists: 1
 --- !u!114 &-2872841827034647520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,11 +33,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: Switcharoo\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636918095320083848
+  lastModified: 636918165219765212
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 672
+    Value: 718
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -33,14 +53,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -2872841827034647520}
-  - {fileID: 8984009484443821608}
-  EditorEvents: []
+  - {fileID: -3080538980510837806}
+  EditorEvents:
+  - {fileID: 4317181029972263074}
   MasterBanks:
-  - {fileID: 8984009484443821608}
+  - {fileID: -3080538980510837806}
   StringsBanks:
   - {fileID: -2872841827034647520}
-  stringsBankWriteTime: 636918095320083848
+  stringsBankWriteTime: 636918165219765212
   cacheVersion: 3
+--- !u!114 &4317181029972263074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Chungus
+  guid: de823c36a381a84a944dcbecc03cf8a2
+  Banks:
+  - {fileID: -3080538980510837806}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10059
 --- !u!114 &8984009484443821608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,4 +104,4 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 12474
-  Exists: 1
+  Exists: 0
